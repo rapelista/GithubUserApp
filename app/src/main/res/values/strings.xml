@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="john_doe">John Doe</string>
+    <string name="favourite">Favourite</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">0</string>
+    <string name="settings">Settings</string>
+    <string name="cari_username">Cari Username</string>
+    <string name="user_not_found">Username tidak ditemukan</string>
+    <string name="back">Back</string>
+    <string name="tv_zero_favourite">Belum ada user yang menjadi favourite!</string>
+
+    <string name="ff_detail">User belum memiliki %1$s</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>

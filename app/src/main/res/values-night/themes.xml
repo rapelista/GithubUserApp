@@ -1,0 +1,7 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">#161b22</item>
+        <item name="colorSurface">@color/color_3</item>
+    </style>
+</resources>
