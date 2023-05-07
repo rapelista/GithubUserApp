@@ -3,6 +3,7 @@ package com.gvstang.dicoding.latihan.githubuser.api
 import com.gvstang.dicoding.latihan.githubuser.api.response.DetailResponse
 import com.gvstang.dicoding.latihan.githubuser.api.response.FFResponse
 import com.gvstang.dicoding.latihan.githubuser.api.response.SearchResponse
+import com.gvstang.dicoding.latihan.githubuser.BuildConfig
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -12,7 +13,7 @@ import retrofit2.http.Query
 interface ApiService {
     @Headers(
         "Accept: application/vnd.github+json",
-        "Authorization: Bearer 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",
+        "Authorization: Bearer ${BuildConfig.API_KEY}",
         "X-GitHub-Api-Version: 2022-11-28"
     )
 
